@@ -1,0 +1,67 @@
+.portfolio {
+    background-color: var(--white-color);
+    }
+    
+    .section-subtitle-description {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--secondary-text-color);
+    }
+    
+    .section-text-choise {
+    font-size: 16px;
+    line-height: 1.88;
+    color: var(--primary-text-color);
+    }
+    
+    .section-list-card {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    
+    .section-item-card {
+        max-width: calc((100% - 60px) / 3);
+        transition: box-shadow var(--timing);  
+        &:hover {
+            box-shadow: 
+        0px 1px 1px rgba(0, 0, 0, 0.12), 
+        0px 4px 4px rgba(0, 0, 0, 0.06), 
+        1px 4px 6px rgba(0, 0, 0, 0.16);
+        }
+    }
+    
+    .over-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: var(--white-color);
+    background-color: rgba(33, 150, 243, 0.9);
+    padding: 63px 24px;
+    height: 100%;
+    transform: translateY(100%);
+    transition: transform var(--timing);
+    overflow: auto;
+    .section-item-card:hover & {
+        transform: translateY(0);
+        }
+    }
+    
+    .over-text-wrap {
+    position: relative;
+    overflow: hidden;
+    }
+    
+    .card {
+        padding: 20px 24px;
+        border: 1px solid #EEEEEE;
+    }
+    
+    .section-subtitle-description {
+        margin-bottom: 4px;
+    }

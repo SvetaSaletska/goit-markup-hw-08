@@ -1,0 +1,113 @@
+.footer {
+    background-color: var(--header-footer-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    }
+    
+    .footer-logo {
+        color: var(--white-color);
+    }
+    
+    .footer-address,
+    .footer-list {
+    font-style: normal;
+    color: var(--white-color);
+    line-height: 1.71;
+    }
+    
+    .footer-address {
+    margin-bottom: 9px;
+    margin-top: 20px;
+    }
+    
+    .footer-mail,
+    .footer-tel {
+    color: var(--transparent-color);
+    transition: color var(--timing);
+    }
+    
+    .footer-mail {
+        margin-bottom: 9px;
+    }
+    
+    .footer-text,
+    .sign-up-text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    
+        }   
+    
+    .footer-container {
+        width: 1200px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0 auto;
+        display: flex;
+        background-position: right;
+    }
+    
+    .social {
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
+    padding-top: 12px;
+    }
+    
+    .social-list {
+        display: flex;
+        gap: 10px;
+        margin-top: 20px;
+    }
+    
+    .social-link {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+    
+    .social-icon {
+    fill: var(--white-color);
+    }
+    
+    .sign-up-form {
+    padding-top: 12px;
+    margin-left: 93px;
+    }
+    
+    .sign-up-mail {
+        width: 358px;
+        height: 50px;
+        padding-left: 16px;
+    
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 4px;
+        background-color: var(--header-footer-color);
+        margin-right: 12px;
+        outline: transparent;
+        transition: border var(--timing);
+        color: #FFFFFF;
+        &:focus {
+            border: 1px solid var(--accent-color);
+        }
+        &::placeholder {
+            font-size: 16px;
+            line-height: 1.25;
+            display: flex;
+            align-items: center;
+            padding-right: 16px;
+            
+            color: rgba(255, 255, 255, 0.6);
+        }
+    }
+    
+    .form-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        
+    }
+    
+    
