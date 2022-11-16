@@ -179,7 +179,7 @@ body {
 }
 
 .menu {
-  display: flex;
+  display: none;
   gap: 50px;
 }
 
@@ -194,7 +194,7 @@ body {
 }
 
 .header__contacts {
-  display: flex;
+  display: none;
   margin-left: auto;
   gap: 50px;
 }
