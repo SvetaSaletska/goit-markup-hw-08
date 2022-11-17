@@ -2,10 +2,24 @@
     background-color: var(--header-footer-color);
     padding-top: 60px;
     padding-bottom: 60px;
+    
     }
     
     .footer-logo {
         color: var(--white-color);
+        @media screen and (min-width: 480px) {
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 1.16;
+            text-align: center;
+            letter-spacing: 0.03em;
+        }
+
+        @media screen and (min-width: 1200px) {
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 1.16;
+        }
     }
     
     .footer-address,
@@ -18,6 +32,9 @@
     .footer-address {
     margin-bottom: 9px;
     margin-top: 20px;
+    @media screen and (min-width: 768px) {
+        
+    }
     }
     
     .footer-mail,
@@ -25,7 +42,7 @@
     color: var(--transparent-color);
     transition: color var(--timing);
     }
-    
+
     .footer-mail {
         margin-bottom: 9px;
     }
@@ -42,19 +59,47 @@
         }   
     
     .footer-container {
-        width: 1200px;
+        // width: 1200px;
         padding-left: 15px;
         padding-right: 15px;
         margin: 0 auto;
         display: flex;
+
         background-position: right;
+
+        @media screen and (min-width: 480px) {
+            width: 480px;
+            height: 604px;
+            flex-wrap: wrap;
+        }
+
+        @media screen and (min-width: 768px) {
+            display: flex;
+            flex-wrap: nowrap;
+            width: 768px;
+        }
     }
     
+    .footer-contacts {
+      justify-content: center;
+      text-align: center;
+      padding-left: 109px;
+      padding-right: 109px;
+      padding-bottom: 0;
+     
+      @media screen and (min-width: 768px) {
+        padding-left: 61px;
+        width: 100%;
+      }
+    }
+
     .social {
     justify-content: center;
     align-items: center;
+    text-align: center;
     margin-left: 70px;
-    padding-top: 12px;
+    margin-right: 122px;
+    margin-left: 122px;
     }
     
     .social-list {
@@ -72,8 +117,11 @@
     }
     
     .sign-up-form {
-    padding-top: 12px;
-    margin-left: 93px;
+    // padding-top: 12px;
+    // margin-left: 93px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
     }
     
     .sign-up-mail {
@@ -104,10 +152,8 @@
     
     .form-container {
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         margin-top: 20px;
-        
     }
-    
-    
