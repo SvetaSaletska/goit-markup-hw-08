@@ -860,7 +860,6 @@ body {
 @media screen and (min-width: 768px) {
   .footer-contacts {
     padding-left: 61px;
-    width: 100%;
   }
 }
 
@@ -891,6 +890,7 @@ body {
   justify-content: center;
   text-align: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .sign-up-mail {
@@ -939,6 +939,12 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 20px;
+  margin-right: 159px;
+}
+
+.social-wrap {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .portfolio {
