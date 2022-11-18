@@ -25,16 +25,18 @@
     .footer-address,
     .footer-list {
     font-style: normal;
+    font-size: 14px;
+    line-height: 1.14;
     color: var(--white-color);
     line-height: 1.71;
     }
     
     .footer-address {
-    margin-bottom: 9px;
-    margin-top: 20px;
-    @media screen and (min-width: 768px) {
-        
-    }
+    // margin-bottom: 9px;
+    margin-top: 28px;
+    margin-bottom: 12px;
+
+
     }
     
     .footer-mail,
@@ -44,7 +46,7 @@
     }
 
     .footer-mail {
-        margin-bottom: 9px;
+        margin-bottom: 12px;
     }
     
     .footer-text,
@@ -62,14 +64,14 @@
         // width: 1200px;
         padding-left: 15px;
         padding-right: 15px;
-        margin: 0 auto;
+        // margin: 0 auto;
         display: flex;
+        flex-wrap: wrap;
 
         background-position: right;
 
         @media screen and (min-width: 480px) {
             width: 480px;
-            height: 604px;
             flex-wrap: wrap;
         }
 
@@ -88,18 +90,23 @@
       padding-bottom: 0;
      
       @media screen and (min-width: 768px) {
-        padding-left: 61px;
+        width: 232px;
+      } {
+      
+    }
        
-      }
+      
     }
 
     .social {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-left: 70px;
+    margin-top: 60px;
+    // margin-left: 70px;
     margin-right: 122px;
     margin-left: 122px;
+    margin-bottom: 60px;
     }
     
     .social-list {
@@ -117,16 +124,22 @@
     }
     
     .sign-up-form {
+      
     // padding-top: 12px;
     // margin-left: 93px;
     justify-content: center;
     text-align: center;
     align-items: center;
     flex-wrap: wrap;
+
+    @media screen and (min-width: 768px) {
+      padding-left: 15px;
+    }
     }
     
     .sign-up-mail {
-        width: 358px;
+        // width: 358px;
+        width: 450px;
         height: 50px;
         padding-left: 16px;
     
@@ -157,7 +170,6 @@
         justify-content: center;
         align-items: center;
         margin-top: 20px;
-        margin-right: 159px;
     }
 
     .social-wrap {
