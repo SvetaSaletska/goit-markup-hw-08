@@ -90,23 +90,26 @@
       padding-bottom: 0;
      
       @media screen and (min-width: 768px) {
-        width: 232px;
-      } {
+ 
+      } 
       
     }
        
-      
-    }
+    
 
     .social {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 60px;
+    margin-top: 5px;
     // margin-left: 70px;
     margin-right: 122px;
     margin-left: 122px;
     margin-bottom: 60px;
+
+    @media screen and (min-width: 768px) {
+       
+    }
     }
     
     .social-list {
@@ -134,6 +137,8 @@
 
     @media screen and (min-width: 768px) {
       padding-left: 15px;
+      margin-right: 159px;
+      
     }
     }
     
