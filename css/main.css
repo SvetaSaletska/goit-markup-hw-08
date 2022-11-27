@@ -856,8 +856,6 @@ body {
 }
 @media screen and (min-width: 768px) {
   .footer-container {
-    display: flex;
-    flex-wrap: nowrap;
     width: 768px;
   }
 }
@@ -867,17 +865,31 @@ body {
   text-align: center;
   padding-left: 109px;
   padding-right: 109px;
-  padding-bottom: 0;
+  padding-bottom: 60px;
 }
+@media screen and (min-width: 768px) {
+  .footer-contacts {
+    padding-right: 0px;
+    padding-left: 67px;
+  }
+}
+
 .social {
   justify-content: center;
   align-items: center;
   text-align: center;
   margin-top: 5px;
-  margin-right: 122px;
-  margin-left: 122px;
+  padding-right: 122px;
+  padding-left: 122px;
   margin-bottom: 60px;
 }
+@media screen and (min-width: 768px) {
+  .social {
+    padding-right: 89px;
+    margin-left: 43px;
+  }
+}
+
 .social-list {
   display: flex;
   gap: 10px;
@@ -900,8 +912,8 @@ body {
 }
 @media screen and (min-width: 768px) {
   .sign-up-form {
-    padding-left: 15px;
-    margin-right: 159px;
+    padding-left: 159px;
+    padding-right: 159px;
   }
 }
 
@@ -953,9 +965,10 @@ body {
   margin-top: 20px;
 }
 
-.social-wrap {
-  display: flex;
-  flex-wrap: wrap;
+@media screen and (min-width: 768px) {
+  .social-wrap {
+    display: flex;
+  }
 }
 
 .portfolio {
