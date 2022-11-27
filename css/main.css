@@ -859,6 +859,13 @@ body {
     width: 768px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .footer-container {
+    width: 1200px;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+}
 
 .footer-contacts {
   justify-content: center;
@@ -916,7 +923,6 @@ body {
     padding-right: 159px;
   }
 }
-
 .sign-up-mail {
   width: 450px;
   height: 50px;
@@ -963,6 +969,11 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 20px;
+}
+@media screen and (min-width: 1200px) {
+  .form-container {
+    flex-wrap: nowrap;
+  }
 }
 
 @media screen and (min-width: 768px) {

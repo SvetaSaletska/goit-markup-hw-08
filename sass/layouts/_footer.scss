@@ -78,6 +78,12 @@
         @media screen and (min-width: 768px) {
             width: 768px;
         }
+
+        @media screen and (min-width: 1200px) {
+            width: 1200px;
+            display: flex;
+            flex-wrap: nowrap;
+        }
     }
     
     .footer-contacts {
@@ -138,8 +144,10 @@
     @media screen and (min-width: 768px) {
       padding-left: 159px;
       padding-right: 159px;
-     
-      
+    }
+
+    @media screen and (min-width: 1200px) {
+        
     }
     }
     
@@ -176,6 +184,11 @@
         justify-content: center;
         align-items: center;
         margin-top: 20px;
+
+        @media screen and (min-width: 1200px) {
+            flex-wrap: nowrap;
+           
+        }
     }
 
 .social-wrap {
