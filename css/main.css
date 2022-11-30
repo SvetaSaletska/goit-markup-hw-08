@@ -148,6 +148,11 @@ body {
   border-color: transparent;
   cursor: pointer;
 }
+@media screen and (min-width: 1200px) {
+  .sign-up-btn {
+    margin-top: 0;
+  }
+}
 
 .btn-send {
   margin-left: 10px;
@@ -896,6 +901,11 @@ body {
     margin-left: 43px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .social {
+    padding-right: 0;
+  }
+}
 
 .social-list {
   display: flex;
@@ -923,6 +933,14 @@ body {
     padding-right: 159px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .sign-up-form {
+    padding-top: 12px;
+    margin-left: 94px;
+    padding-left: 0;
+  }
+}
+
 .sign-up-mail {
   width: 450px;
   height: 50px;

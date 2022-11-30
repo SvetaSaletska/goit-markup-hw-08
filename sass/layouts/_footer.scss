@@ -116,6 +116,10 @@
         padding-right: 89px;
         margin-left: 43px;
     }
+
+    @media screen and (min-width: 1200px) {
+        padding-right: 0;
+    }
     }
     
     .social-list {
@@ -147,7 +151,9 @@
     }
 
     @media screen and (min-width: 1200px) {
-        
+        padding-top: 12px;
+        margin-left: 94px;
+        padding-left: 0;
     }
     }
     
