@@ -17,8 +17,8 @@
 
         @media screen and (min-width: 1200px) {
             font-weight: 700;
-            font-size: 24px;
-            line-height: 1.16;
+            font-size: 26px;
+            line-height: 1.19;
         }
     }
     
@@ -29,6 +29,7 @@
     line-height: 1.14;
     color: var(--white-color);
     line-height: 1.71;
+    min-width: 207px;
     }
     
     .footer-address {
@@ -57,14 +58,18 @@
     text-transform: uppercase;
     
     color: #FFFFFF;
+
+    @media screen and (min-width: 1200px) {
+        text-align: left;
+    }
     
-        }   
+    }   
     
     .footer-container {
         // width: 1200px;
         padding-left: 15px;
         padding-right: 15px;
-        // margin: 0 auto;
+        margin: 0 auto;
         display: flex;
         flex-wrap: wrap;
 
@@ -83,6 +88,7 @@
             width: 1200px;
             display: flex;
             flex-wrap: nowrap;
+            
         }
     }
     
@@ -95,9 +101,14 @@
      
       @media screen and (min-width: 768px) {
         padding-right: 0px;
-        padding-left: 67px;
+        padding-left: 61px;
       } 
       
+      @media screen and (min-width: 1200px) {
+        padding-right: 0px;
+        padding-left: 0;
+        text-align: left;
+      } 
     }
        
     
@@ -119,6 +130,8 @@
 
     @media screen and (min-width: 1200px) {
         padding-right: 0;
+        padding-left: 70px;
+        margin-left: 0;
     }
     }
     
@@ -137,9 +150,6 @@
     }
     
     .sign-up-form {
-      
-    // padding-top: 12px;
-    // margin-left: 93px;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -151,14 +161,12 @@
     }
 
     @media screen and (min-width: 1200px) {
-        padding-top: 12px;
         margin-left: 94px;
         padding-left: 0;
     }
     }
     
     .sign-up-mail {
-        // width: 358px;
         width: 450px;
         height: 50px;
         padding-left: 16px;
@@ -182,6 +190,11 @@
             
             color: rgba(255, 255, 255, 0.6);
         }
+
+        @media screen and (min-width: 1200px) {
+            flex-wrap: nowrap;
+            width: 358px;
+        }
     }
     
     .form-container {
@@ -193,7 +206,7 @@
 
         @media screen and (min-width: 1200px) {
             flex-wrap: nowrap;
-           
+            
         }
     }
 

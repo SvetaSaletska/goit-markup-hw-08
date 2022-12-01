@@ -684,6 +684,11 @@ body {
   text-transform: uppercase;
   color: var(--secondary-text-color);
 }
+@media screen and (max-width: 767px) {
+  .section-subtitle {
+    text-align: center;
+  }
+}
 
 .section-text {
   line-height: 1.71;
@@ -808,8 +813,8 @@ body {
 @media screen and (min-width: 1200px) {
   .footer-logo {
     font-weight: 700;
-    font-size: 24px;
-    line-height: 1.16;
+    font-size: 26px;
+    line-height: 1.19;
   }
 }
 
@@ -820,6 +825,7 @@ body {
   line-height: 1.14;
   color: var(--white-color);
   line-height: 1.71;
+  min-width: 207px;
 }
 
 .footer-address {
@@ -845,10 +851,17 @@ body {
   text-transform: uppercase;
   color: #FFFFFF;
 }
+@media screen and (min-width: 1200px) {
+  .footer-text,
+.sign-up-text {
+    text-align: left;
+  }
+}
 
 .footer-container {
   padding-left: 15px;
   padding-right: 15px;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   background-position: right;
@@ -882,7 +895,14 @@ body {
 @media screen and (min-width: 768px) {
   .footer-contacts {
     padding-right: 0px;
-    padding-left: 67px;
+    padding-left: 61px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer-contacts {
+    padding-right: 0px;
+    padding-left: 0;
+    text-align: left;
   }
 }
 
@@ -904,6 +924,8 @@ body {
 @media screen and (min-width: 1200px) {
   .social {
     padding-right: 0;
+    padding-left: 70px;
+    margin-left: 0;
   }
 }
 
@@ -935,7 +957,6 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .sign-up-form {
-    padding-top: 12px;
     margin-left: 94px;
     padding-left: 0;
   }
@@ -979,6 +1000,12 @@ body {
   align-items: center;
   padding-right: 16px;
   color: rgba(255, 255, 255, 0.6);
+}
+@media screen and (min-width: 1200px) {
+  .sign-up-mail {
+    flex-wrap: nowrap;
+    width: 358px;
+  }
 }
 
 .form-container {
