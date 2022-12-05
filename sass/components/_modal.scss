@@ -9,7 +9,7 @@
 
 .modal {
     position: absolute;
-    width: 450px;
+    width: 290px;
     min-height: 609px;
     top: 50%;
     left: 50%;
@@ -24,6 +24,11 @@
     0px 1px 1px rgba(0, 0, 0, 0.14), 
     0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
+
+    @media screen and (min-width: 480px) {
+        width: 450px;
+        min-height: 609px;
+    }
 
     @media screen and (min-width: 1200px) {
         width: 528px;
@@ -65,13 +70,17 @@ transition: fill var(--timing);
 
 .modal-title {
 font-weight: 700;
-font-size: 20px;
+font-size: 15px;
 line-height: 1.15;
 text-align: center;
 
 margin-bottom: 12px;
 
 color: #212121;
+
+@media screen and (min-width: 480px) {
+  font-size: 20px;;
+ }
 }
 
 .modal-input {
@@ -93,13 +102,13 @@ color: #212121;
     height: 50px;
     
     font-weight: 700;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 1.88;
 
     display: flex;
     position: absolute;
     bottom: 40px;
-    left: 164px;
+    left: 45px;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -111,6 +120,16 @@ color: #212121;
     border-radius: 4px;
     cursor: pointer;
     border-color: transparent;
+
+    @media screen and (min-width: 480px) {
+        left: 125px;
+        font-size: 16px;
+     }
+
+     @media screen and (min-width: 1200px) {
+        left: 164px;
+        font-size: 16px;
+     }
 }
 
 .modal-label-text {
@@ -174,6 +193,13 @@ color: #212121;
 .policy-link {
     color: var(--accent-color);
     text-decoration: underline;
+}
+
+.policy-text {
+    @media screen and (max-width: 1199px) {
+        font-size: 12px;
+        line-height: 1.16;
+     }
 }
 
 .checkbox {

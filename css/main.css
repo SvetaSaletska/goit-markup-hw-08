@@ -859,6 +859,7 @@ body {
 }
 
 .footer-container {
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -888,9 +889,15 @@ body {
 .footer-contacts {
   justify-content: center;
   text-align: center;
-  padding-left: 109px;
-  padding-right: 109px;
+  padding-left: 42px;
+  padding-right: 42px;
   padding-bottom: 60px;
+}
+@media screen and (min-width: 768px) {
+  .footer-contacts {
+    padding-left: 109px;
+    padding-right: 109px;
+  }
 }
 @media screen and (min-width: 768px) {
   .footer-contacts {
@@ -910,10 +917,16 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding-right: 42px;
+  padding-left: 42px;
   margin-top: 5px;
-  padding-right: 122px;
-  padding-left: 122px;
   margin-bottom: 60px;
+}
+@media screen and (min-width: 480px) {
+  .social {
+    padding-right: 122px;
+    padding-left: 122px;
+  }
 }
 @media screen and (min-width: 768px) {
   .social {
@@ -963,7 +976,7 @@ body {
 }
 
 .sign-up-mail {
-  width: 450px;
+  width: 290px;
   height: 50px;
   padding-left: 16px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -1001,6 +1014,11 @@ body {
   padding-right: 16px;
   color: rgba(255, 255, 255, 0.6);
 }
+@media screen and (min-width: 480px) {
+  .sign-up-mail {
+    width: 450px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .sign-up-mail {
     flex-wrap: nowrap;
@@ -1021,6 +1039,9 @@ body {
   }
 }
 
+.social-wrap {
+  margin: 0 auto;
+}
 @media screen and (min-width: 768px) {
   .social-wrap {
     display: flex;
@@ -1103,7 +1124,7 @@ body {
 
 .modal {
   position: absolute;
-  width: 450px;
+  width: 290px;
   min-height: 609px;
   top: 50%;
   left: 50%;
@@ -1113,6 +1134,12 @@ body {
   background-color: var(--white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+}
+@media screen and (min-width: 480px) {
+  .modal {
+    width: 450px;
+    min-height: 609px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .modal {
@@ -1155,11 +1182,16 @@ body {
 
 .modal-title {
   font-weight: 700;
-  font-size: 20px;
+  font-size: 15px;
   line-height: 1.15;
   text-align: center;
   margin-bottom: 12px;
   color: #212121;
+}
+@media screen and (min-width: 480px) {
+  .modal-title {
+    font-size: 20px;
+  }
 }
 
 .modal-input {
@@ -1179,12 +1211,12 @@ body {
   width: 200px;
   height: 50px;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.88;
   display: flex;
   position: absolute;
   bottom: 40px;
-  left: 164px;
+  left: 45px;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -1196,6 +1228,18 @@ body {
   border-radius: 4px;
   cursor: pointer;
   border-color: transparent;
+}
+@media screen and (min-width: 480px) {
+  .form-btn {
+    left: 125px;
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .form-btn {
+    left: 164px;
+    font-size: 16px;
+  }
 }
 
 .modal-label-text {
@@ -1269,6 +1313,13 @@ body {
 .policy-link {
   color: var(--accent-color);
   text-decoration: underline;
+}
+
+@media screen and (max-width: 1199px) {
+  .policy-text {
+    font-size: 12px;
+    line-height: 1.16;
+  }
 }
 
 .checkbox {

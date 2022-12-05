@@ -66,7 +66,7 @@
     }   
     
     .footer-container {
-        
+        width: 100%;
         padding-left: 15px;
         padding-right: 15px;
         margin: 0 auto;
@@ -95,10 +95,15 @@
     .footer-contacts {
       justify-content: center;
       text-align: center;
-      padding-left: 109px;
-      padding-right: 109px;
+      padding-left: 42px;
+      padding-right: 42px;
       padding-bottom: 60px;
-     
+      
+      @media screen and (min-width: 768px) {
+        padding-left: 109px;
+        padding-right: 109px;
+      } 
+
       @media screen and (min-width: 768px) {
         padding-right: 0px;
         padding-left: 61px;
@@ -117,11 +122,17 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding-right: 42px;
+    padding-left: 42px;
     margin-top: 5px;
     // margin-left: 70px;
-    padding-right: 122px;
-    padding-left: 122px;
+    
     margin-bottom: 60px;
+
+    @media screen and (min-width: 480px) {
+        padding-right: 122px;
+        padding-left: 122px;
+    }
 
     @media screen and (min-width: 768px) {
         padding-right: 89px;
@@ -167,7 +178,7 @@
     }
     
     .sign-up-mail {
-        width: 450px;
+        width: 290px;
         height: 50px;
         padding-left: 16px;
     
@@ -191,6 +202,10 @@
             color: rgba(255, 255, 255, 0.6);
         }
 
+        @media screen and (min-width: 480px) {
+            width: 450px;
+        }
+
         @media screen and (min-width: 1200px) {
             flex-wrap: nowrap;
             width: 358px;
@@ -211,6 +226,9 @@
     }
 
 .social-wrap {
+
+    margin: 0 auto;
+    
     @media screen and (min-width: 768px) {
     
         display: flex;
